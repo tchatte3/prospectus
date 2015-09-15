@@ -1,0 +1,57 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{Contents}{v}{dummy.4}
+\contentsline {chapter}{List of Figures}{vii}{dummy.6}
+\contentsline {chapter}{List of Tables}{ix}{dummy.8}
+\contentsline {chapter}{Abbreviations}{x}{dummy.10}
+\contentsline {chapter}{Physical Constants}{xi}{dummy.13}
+\contentsline {chapter}{Symbols}{xii}{dummy.16}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.19}
+\contentsline {chapter}{\numberline {2}Numerical Method}{6}{chapter.24}
+\contentsline {section}{\numberline {2.1}Navier Stokes Equation}{6}{section.25}
+\contentsline {section}{\numberline {2.2}Large Eddy Simulation}{8}{section.29}
+\contentsline {section}{\numberline {2.3}Model Assumptions: Boundary conditions of ABL}{14}{section.42}
+\contentsline {subsection}{\numberline {2.3.1}Near Wall Modelling}{15}{subsection.44}
+\contentsline {section}{\numberline {2.4}Model Assumptions: Boundary conditions of Wind turbine Array}{17}{section.48}
+\contentsline {section}{\numberline {2.5}Actuator Line Model: Wind turbine}{18}{section.51}
+\contentsline {chapter}{\numberline {3}Results: Precursor Simulation}{21}{chapter.60}
+\contentsline {section}{\numberline {3.1}Computational Domain}{21}{section.61}
+\contentsline {section}{\numberline {3.2}Results and Discussion}{22}{section.63}
+\contentsline {subsection}{\numberline {3.2.1}Subgrid scale and Near Wall modelling effects on Log Law}{23}{subsection.65}
+\contentsline {subsection}{\numberline {3.2.2}Cases I-IV}{25}{subsection.70}
+\contentsline {subsection}{\numberline {3.2.3}Cases V-VII}{26}{subsection.75}
+\contentsline {subsection}{\numberline {3.2.4}Cases VIII-X}{30}{subsection.79}
+\contentsline {subsection}{\numberline {3.2.5}A note on Log Layer Mismatch}{33}{subsection.83}
+\contentsline {subsection}{\numberline {3.2.6}Low Dissipation trends with $n = \frac {1}{2}$}{41}{subsection.95}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Premultiplied Spectra: understanding dissipation trends}{45}{subsubsection.96}
+\contentsline {subsection}{\numberline {3.2.7}Effect of Explicit filtering: Variation of $k_c$}{46}{subsection.101}
+\contentsline {section}{\numberline {3.3}Summary}{47}{section.102}
+\contentsline {chapter}{\numberline {4}Results: Wind turbine array}{49}{chapter.103}
+\contentsline {section}{\numberline {4.1}Computational Domain}{49}{section.105}
+\contentsline {section}{\numberline {4.2}Results: Mean and Second order statistics}{52}{section.107}
+\contentsline {section}{\numberline {4.3}Mathematical Tools used in PostProcessing}{52}{section.130}
+\contentsline {subsection}{\numberline {4.3.1}Helicity}{52}{subsection.131}
+\contentsline {subsection}{\numberline {4.3.2}Lamb Vector Divergence}{64}{subsection.135}
+\contentsline {chapter}{\numberline {5}Future Work}{66}{chapter.137}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Navier-Stokes equation in Spectral Element Formulation }{67}{appendix.138}
+\contentsline {section}{\numberline {A.1}Weak Formulation of NS: Galerkin projection}{67}{section.139}
+\contentsline {section}{\numberline {A.2}Tensor Products: Derivatives}{68}{section.148}
+\contentsline {section}{\numberline {A.3}Legendre polynomials}{69}{section.152}
+\contentsline {section}{\numberline {A.4}Lagrange Interpolants}{70}{section.158}
+\contentsline {section}{\numberline {A.5}BDF$k$-EXT$k$ Scheme}{72}{section.167}
+\contentsline {chapter}{\numberline {B}Mathematical Tools: Near Wall Modelling}{74}{appendix.173}
+\contentsline {section}{\numberline {B.1}Stress boundary conditions}{74}{section.174}
+\contentsline {section}{\numberline {B.2}Elemental Level Filtering}{75}{section.178}
+\contentsline {chapter}{\numberline {C}Mathematical details of Outflow Boundary Condition}{77}{appendix.184}
+\contentsline {section}{\numberline {C.1}Outflow boundary conditions}{77}{section.185}
+\contentsline {section}{\numberline {C.2}Energy Analysis}{78}{section.190}
+\contentsline {subsection}{\numberline {C.2.1}Sponge Layer}{79}{subsection.196}
+\contentsline {subsection}{\numberline {C.2.2}Stabilized Natural Boundary Condition}{79}{subsection.197}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{80}{dummy.199}

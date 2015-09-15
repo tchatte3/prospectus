@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: main.bib
+Warning--I didn't find a database entry for "bem"
+Warning--I didn't find a database entry for "nek5000-web-page"
+Warning--empty institution in churchfield
+Warning--empty institution in peet2
+Warning--empty year in bardina2
+Warning--empty year in bardina2
+Warning--empty institution in lily0
+Warning--empty institution in tan
+Warning--empty institution in martinez
+Warning--empty institution in cal3
+You've used 105 entries,
+            2481 wiz_defined-function locations,
+            1129 strings with 18991 characters,
+and the built_in function-call counts, 38035 in all, are:
+= -- 3423
+> -- 1597
+< -- 78
++ -- 663
+- -- 452
+* -- 2725
+:= -- 6053
+add.period$ -- 322
+call.type$ -- 105
+change.case$ -- 211
+chr.to.int$ -- 104
+cite$ -- 113
+duplicate$ -- 1962
+empty$ -- 3612
+format.name$ -- 621
+if$ -- 8079
+int.to.chr$ -- 2
+int.to.str$ -- 106
+missing$ -- 93
+newline$ -- 536
+num.names$ -- 315
+pop$ -- 788
+preamble$ -- 1
+purify$ -- 105
+quote$ -- 0
+skip$ -- 1163
+stack$ -- 0
+substring$ -- 2109
+swap$ -- 241
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 717
+warning$ -- 8
+while$ -- 351
+width$ -- 0
+write$ -- 1371
+(There were 10 warnings)

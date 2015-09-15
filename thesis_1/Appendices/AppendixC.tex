@@ -1,0 +1,72 @@
+% Appendix C
+
+\chapter{Mathematical details of Outflow Boundary Condition} % Main appendix title
+
+\label{AppendixC} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\lhead{Appendix C. \emph{Mathematical details: outflow BC}} % This is for the header on each page - perhaps a shortened title
+
+\section{Outflow boundary conditions}\label{out}
+Weak formulation of Navier-Stokes equation
+\begin{equation}
+\int_{\Omega} \pmb{v}\cdot \frac{\partial \pmb{u}}{\partial t}\mbox{d} \Omega +  \int_{\Omega} \pmb{v}\cdot \pmb{u} \cdot \nabla \pmb{u}\mbox{d} \Omega = -\int_{\Omega} \pmb{v}\cdot \nabla p\mbox{d} \Omega + \frac{1}{Re} \int_{\Omega} \pmb{v}\cdot \nabla ^{2} \pmb{u}\mbox{d} \Omega + \int_{\Omega} \pmb{v}\cdot \pmb{f}\mbox{d} \Omega
+\end{equation}
+
+By the choice of $v$, and simple \textit{Integration by Parts} of the pressure and viscous terms
+\begin{equation}
+\int_{\Omega} \pmb{v}\cdot \nabla p\mbox{d} \Omega = \oint_{\partial \Omega} \left(p \cdot \pmb{n}\right) \mbox{d}S - \int_{\Omega} p  \nabla \cdot \pmb{v}\mbox{d} \Omega
+\end{equation}
+\begin{equation}
+ \nu\int_{\Omega} \nabla^{2}\pmb{u}\cdot \pmb{v} \mbox{d}\Omega = \nu\int_{\Omega}  \nabla \cdot \nabla \pmb{u} \cdot \pmb{v} \mbox{d}\Omega = -  \nu\int_{\Omega}  \nabla \pmb{u} \cdot \nabla^{s} \pmb{v} \mbox{d}\Omega + \int_{\partial \Omega} \nabla \pmb{u} \cdot \pmb{n} \mathrm{d}S
+\end{equation}
+where $\pmb{n}$ is the outward unit normal on the surface $\partial \Omega$.
+In the non-dimensional framework,
+\begin{equation}
+\begin{split}
+\int_{\Omega} \pmb{v} \cdot (\frac{\partial \pmb{u}}{\partial t} + \pmb{u} \cdot \nabla \pmb{u} -f)\mbox{d} \Omega & = \int_{\Omega} p \nabla \cdot \pmb{v}\mbox{d} \Omega - \frac{1}{Re}\int_{\Omega}\nabla \pmb{u} \cdot \nabla \pmb{v} \mbox{d} \Omega  \\
+&\qquad + \oint_{\Gamma_1} (-p + \frac{1}{Re}\nabla  \pmb{u})\cdot \pmb{n}\pmb{v}\mbox{d} S + \oint_{\Gamma_2} \nabla \pmb{u}\cdot \pmb{n}\pmb{v}\mbox{d}S  \label{outflow_1}
+\end{split}
+\end{equation}
+The surface integrals $\Gamma_1$ correspond to the natural outflow boundary conditions (``do nothing" BC) $$ (-p + \frac{1}{Re}\nabla  \pmb{u})\cdot \pmb{n}) = 0 $$ and the surface integral involving $\Gamma_2$ is the stress boundary condition~\ref{stresseq}.
+\section{Energy Analysis}
+A stability analysis of the Navier-Stokes equation in the weak form (suitable for SEM framework) can be performed by projecting within the trial space $\pmb{u}$.
+\begin{align}
+\begin{split}
+\frac{d}{dt}\left(\pmb{u},\ \pmb{u}\right) + \left(\pmb{u} , \ \pmb{u}\nabla \pmb{u}\right) & = \left(\nabla \cdot \pmb{u} , p\right) - \frac{1}{Re}\left(\nabla  \pmb{u} , \nabla\pmb{u}\right) \\ 
+ + &\quad \oint_{\Gamma_1}\pmb{u} \left(-p + \frac{1}{Re}\nabla \pmb{u})\cdot \pmb{n}\right)\mbox{d}S + \frac{1}{Re}\oint_{\Gamma_2}\pmb{u} \nabla \pmb{u}\cdot \pmb{n}\mbox{d}S \label{eneq}
+\end{split}
+\end{align}
+The non-linear term
+\begin{align}
+\left(\pmb{u} , \ \pmb{u}\nabla \pmb{u}\right)  =  \int_{\Omega}\pmb{u} \cdot \pmb{u}\nabla \pmb{u}\mbox{d}\Omega = \int_{\Omega}\pmb{u} \cdot \frac{1}{2}\nabla \vert\pmb{u}\vert^{2}\mbox{d}\Omega
+\end{align}
+\textit{Integration by Parts} reveal that 
+\begin{equation}
+\int_{\Omega}\pmb{u} \cdot \frac{1}{2}\nabla \vert\pmb{u}\vert^{2}\mbox{d}\Omega = -\int_{\Omega}\underbrace{\nabla \cdot \pmb{u}}_{= 0}  \frac{1}{2} \vert\pmb{u}\vert^{2}\mbox{d}\Omega + \oint_{\partial \Omega} \pmb{u}\frac{1}{2} \vert\pmb{u}\vert^{2}\cdot \pmb{n}\mbox{d}S
+\end{equation}
+The surface integral in the non-linear term will vanish only for homogeneous Dirichlet / Periodic boundary conditions. Also the pressure projection term ($\nabla \cdot \pmb{u}, p$) is zero due to the divergence free constraint.
+\begin{align}
+\begin{split}
+\frac{d}{dt}\vert\vert \pmb{u} \vert\vert^2_{L^{2}(\Omega)} = -\frac{1}{Re}\vert\vert\nabla \pmb{u}\vert\vert^2_{L^{2}(\Omega)} 
++ \oint_{\Gamma_1}\pmb{u} \left(-p + \frac{1}{Re}\nabla \pmb{u} - \frac{1}{2}\vert \pmb{u}\vert^2)\cdot \pmb{n}\right)\mbox{d}S \\
++  \oint_{\Gamma_2}(\frac{1}{Re} \pmb{u} \nabla \pmb{u} - \frac{1}{2}\pmb{u}\vert  \pmb{u}\vert^2)\cdot \pmb{n}\mbox{d}S \label{out}
+\end{split}
+\end{align}
+For stabilized solution of NS equation, $\frac{d}{dt}\vert\vert \pmb{u} \vert\vert^2_n{L^{2}(\Omega)} \leq 0$. For simulations with $Re \rightarrow \infty$, the  $L^{2}$ norm of energy equation 
+\begin{equation}
+\frac{d}{dt}\vert\vert \pmb{u} \vert\vert^2_{L^{2}(\Omega)} = 
+  \oint_{\Gamma_1 \oplus \Gamma_2}\pmb{u}(- \frac{1}{2}\vert  \pmb{u}\vert^2)\cdot \pmb{n}\mbox{d}S
+\end{equation}
+The terms bearing the coefficient ${1}/{Re}$ going to zero and from the natural outflow boundary conditions $$  \oint_{\Gamma_1}\left(-p + \frac{1}{Re}\nabla \pmb{u} \right)\cdot \pmb{n}\mbox{d}S = 0 $$ the stability of NS equation (energy analysis) is guided by terms from the nontrivial boundary conditions at $\Gamma_1, \ \Gamma_2$. \\
+Condition of stability $$ \pmb{u} \cdot \pmb{n} \geq 0 \ \ \ \mbox{for}\ \ \Gamma_1 \oplus \Gamma_2$$.
+At the bottom ``wall" stress boundary condition no-penetration of large eddies ensure $\pmb{u} \cdot \pmb{n} = 0 \ \ \ \mbox{for}\ \ \Gamma_2$, $\Rightarrow$ condition of stability only guided by the outflow boundary condition $\pmb{u} \cdot \pmb{n} \geq 0 \ \ \ \mbox{for}\ \ \Gamma_1$
+\subsection{Sponge Layer}
+In a sponge region the idea is to damp out all unwanted reflections by adding extra forcing to the flow. The sponge layer can be developed in various ways. One such way is close to the outflow, there is a small artificial region of high viscosity to slow down the high speed flow realistically without triggering spurious reflected waves due to the change of medium.\\
+ From the perspective of stability analysis (Equation(~\ref{out})) the  $L^{2}$ norm of energy equation can be controlled since $-\frac{1}{Re}\vert\vert\nabla \pmb{u}\vert\vert^2_{L^{2}(\Omega)}$ starts dominating the flow near the outflow boundary condition ($\frac{d}{dt}\vert\vert \pmb{u} \vert\vert^2_{L^{2}(\Omega)} \leq 0$)
+\subsection{Stabilized Natural Boundary Condition}  
+Adding the condition $\pmb{u} \left(-p + \frac{1}{Re}\nabla \pmb{u} - \frac{1}{2}\vert \pmb{u}\vert^2)\cdot \pmb{n}\right)$ if an energy influx on $\Gamma_1$ is present, the growth of $L^2$ energy norm as $Re \rightarrow \infty$ is eliminated. To remove the discontinuity that appears when fluxes turn from negative to positive from one time step to another a smooth step function was used.
+\begin{equation}
+\boxed{-p\cdot \pmb{n} + \frac{1}{Re}\nabla  \pmb{u} \cdot \pmb{n} - \frac{1}{2}\vert \pmb{u} \vert ^{2}\Theta (\pmb{n},\pmb{u}) = 0 \ \ \mbox{on} \ \ \Gamma} \label{nbc2}
+\end{equation}
+where
+$$ \Theta (\pmb{n},\pmb{u}) = \left(1 - \frac{\tanh(\pmb{n} \cdot \pmb{u})}{U\delta}\right)$$ is smooth Heaviside step function to remove sudden discontinuity of the outflow fluxes with $U, \ \delta$ being some chosen velocity and length scale in the flow and $\pmb{n}$ is the unit normal vector at the outflow boundary. 

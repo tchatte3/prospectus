@@ -1,0 +1,619 @@
+\begin{thebibliography}{105}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Piomelli and Balaras(2002)]{pio2}
+U.~Piomelli and E.~Balaras.
+\newblock Wall-layer models for large eddy simulations.
+\newblock \emph{Annu Rev. Fluid. Mech}, 34:\penalty0 349--374, 2002.
+
+\bibitem[Port\'{e}-Agel et~al.(2000)Port\'{e}-Agel, Meneveau, and
+  Parlange]{porte1fun}
+F.~Port\'{e}-Agel, C.~Meneveau, and M.~B Parlange.
+\newblock A scale-dependant dynamics model for large eddy simulation:
+  application to a neutral atmospheric boundary layer.
+\newblock \emph{J. Fluid. Mech.}, 415:\penalty0 261--284, 2000.
+
+\bibitem[Wu and Meyers(2013)]{meyers2}
+P.~Wu and J.~Meyers.
+\newblock A constraint for subgrid-scale stresses in the logarithmic region of
+  high reynolds number turbulent boundary layers: A solution to log-layer
+  mismatch problem.
+\newblock \emph{Phys. Fluids}, 25:\penalty0 015104, 2013.
+
+\bibitem[Bou-Zeid et~al.(2005)Bou-Zeid, Meneveau, and Parlange]{bou1}
+E.~Bou-Zeid, C.~Meneveau, and M.~Parlange.
+\newblock A scale-dependant lagrangian dynamic model for large eddy simulation
+  of complex turbulent flows.
+\newblock \emph{Phys. Fluids}, 415:\penalty0 025125, 2005.
+
+\bibitem[Sullivan et~al.(1997)Sullivan, McWilliams, and Moeng]{sull}
+P.~P. Sullivan, J.~C. McWilliams, and C.~H. Moeng.
+\newblock subgrid-scale model for large-eddy simulation of planetary
+  boundary-layer flows.
+\newblock \emph{Boundary-Layer Met.}, 71:\penalty0 247--276, 1997.
+
+\bibitem[Chow et~al.(2005)Chow, Street, Xue, and Ferziger]{chow}
+F.~K. Chow, R.~Street, M.~Xue, and J.~H. Ferziger.
+\newblock Explicit filtering and reconstruction turbulence modeling for
+  large-eddy simulation of neutral boundary layer flow,.
+\newblock \emph{J. Atmos. Sci.}, 62:\penalty0 2058, 2005.
+
+\bibitem[Brasseur(2010)]{brass}
+J.~G. Brasseur.
+\newblock Designing large eddy simulation of turbulent boundary layer to
+  capture law-of-wall scaling.
+\newblock \emph{Phys. Fluids}, 22:\penalty0 021303, 2010.
+
+\bibitem[Pope(2000)]{pope}
+Stephen~B. Pope.
+\newblock \emph{{T}urbulent {F}lows}.
+\newblock Cambridge Press, 2000.
+
+\bibitem[Chapman(1979)]{chap}
+DR~Chapman.
+\newblock Computational aerodynamics, development and outlook.
+\newblock \emph{AIAA J.}, 17:\penalty0 1293--313, 1979.
+
+\bibitem[Reynolds(1990)]{rey}
+W.~C. Reynolds.
+\newblock The potential and limitations of direct and large eddy simulations.
+\newblock In \emph{Lecture Notes in Physics}, volume 357, pages 313--343. J. L.
+  Lumlery, Ed., Springer-Verlag, Berlin, 1990.
+
+\bibitem[Ivanell(2010)]{ivanell}
+S.~S.~A. Ivanell.
+\newblock \emph{Numerical Computations of Wind Turbine Wakes}.
+\newblock PhD thesis, Dept. of Mechanics, Gotland Univ., Stockholm, Sweden,
+  2010.
+
+\bibitem[Calaf et~al.(2010)Calaf, Meneveau, and Meyers]{calaf}
+M.~Calaf, C.~Meneveau, and J.~Meyers.
+\newblock Large eddy simulation study of fully developed wind-turbine array
+  boundary layers.
+\newblock \emph{Phys. Fluids}, 22:\penalty0 015110, 2010.
+
+\bibitem[Port\'{e}-Agel et~al.(2011)Port\'{e}-Agel, Wu, and Conzemius]{porte}
+F.~Port\'{e}-Agel, Y.-T. Wu, and R.~J. Conzemius.
+\newblock Large-{E}ddy {S}imulation of {A}tmospheric {B}oundary {L}ayer {F}low
+  {T}hrough {W}ind {T}urbines and {W}ind {F}arms.
+\newblock \emph{J. of Wind Eng. and Ind. Aerodynamics}, 99:\penalty0 154--168,
+  2011.
+
+\bibitem[Churchfield et~al.(2012{\natexlab{a}})Churchfield, Lee, Moriarty,
+  Martinez, Leonardi, Vijayakumar, and Brasseur]{churchfield}
+M.~J. Churchfield, S.~Lee, P.~J. Moriarty, L.~A. Martinez, S.~Leonardi,
+  G.~Vijayakumar, and J.~G. Brasseur.
+\newblock A large-eddy simulation of wind-plant aerodynamics.
+\newblock AIAA Paper 2012-0537, 2012{\natexlab{a}}.
+
+\bibitem[Churchfield et~al.(2012{\natexlab{b}})Churchfield, Michalakes, and
+  Moriarty]{churchfield_2}
+M.~J. Churchfield, J.~Michalakes, and P.~J. Moriarty.
+\newblock A numerical study of the effects of atmospheric and wake turbulence
+  on wind turbine dynamics,Ó.
+\newblock \emph{J. Turb.}, 13\penalty0 (14):\penalty0 1--32,
+  2012{\natexlab{b}}.
+
+\bibitem[Rankine(1865)]{rankine}
+W.~J.~M. Rankine.
+\newblock On the mechanical principles of the action of propellers.
+\newblock \emph{Trans. Inst. Naval Architects}, 6, 1865.
+
+\bibitem[Glauert(1963)]{glauert}
+H.~Glauert.
+\newblock Airplane propellers.
+\newblock In \emph{Aerodynamic Theory}, ed. W. F. Durand, pages 128--143. New
+  York 4, Div. L, 1963.
+
+\bibitem[Mikkelsen(2003)]{mikkelsen}
+R.~Mikkelsen.
+\newblock \emph{Actuator Disc Methods Applied to Wind Turbines}.
+\newblock PhD thesis, Technical University of Denmark, 2003.
+
+\bibitem[Troldborg(2008)]{troldborg}
+N.~Troldborg.
+\newblock \emph{Actuator Line Modeling of Wind Turbine Wakes}.
+\newblock PhD thesis, Technical University of Denmark, 2008.
+
+\bibitem[Peet et~al.(2013)Peet, Fischer, Conzelmann, and Kotamarthi]{peet2}
+Yulia Peet, Paul Fischer, Guenter Conzelmann, and Veerabhadra Kotamarthi.
+\newblock {A}ctuator {L}ine {A}erodynamics model with {S}pectral {E}lements.
+\newblock AIAA paper 2013--1210, 2013.
+\newblock 07 - 10 January 2013, Grapevine (Dallas/Ft. Worth Region), Texas.
+
+\bibitem[Meneveau(2009)]{men2}
+Charles Meneveau.
+\newblock Wind turbine array fluid dynamics: measurement and modelling, 2009.
+\newblock http://cfd.mae.cornell.edu/ caughey/.
+
+\bibitem[Wu and Port\'{e}-Agel(2011)]{porte2a}
+Yu-Ting Wu and F.~Port\'{e}-Agel.
+\newblock Large-eddy simulation of wind-turbine wakes: Evaluation of turbine
+  parametrisations.
+\newblock \emph{Boundary Layer Metereol}, 138:\penalty0 345--366, 2011.
+
+\bibitem[Patera(1984)]{patera3}
+A.~T. Patera.
+\newblock A spectral element methods for fluid dynamics: laminar flow in a
+  channel expansion.
+\newblock \emph{J. Comput. Phys.}, 54:\penalty0 468--488, 1984.
+
+\bibitem[Maday and Patera(1989)]{patera2}
+Y.~Maday and A.~T. Patera.
+\newblock Spectral element methods for incompressible {N}avier-{Stokes}
+  equations.
+\newblock In \emph{State-of-the-Art Surveys on Computational Mechanics,}, A.K.
+  Noor, J.T. Oden (Eds.), pages 71--143 (Chapter 3). ASME, New York, 1989.
+
+\bibitem[Fischer(1997)]{fischer_jcp}
+P.~Fischer.
+\newblock An overlapping {S}chwarz method for spectral element solution of the
+  incompressible {N}avier-{S}tokes equations.
+\newblock \emph{J. Comp. Phys.}, 133:\penalty0 84--101, 1997.
+
+\bibitem[Deville et~al.(2002)Deville, Fischer, and Mund]{deville}
+M.~O. Deville, P.~F. Fischer, and E.~H. Mund.
+\newblock \emph{High-Order Methods for Incompressible Fluid Flow}.
+\newblock Cambridge University Press, Cambridge, UK, 2002.
+
+\bibitem[Chen and Shizgal(2001)]{sturm2}
+H.~Chen and B.D. Shizgal.
+\newblock A spectral solution of {S}turm-{L}iouville equation: comparison of
+  classical and non-classical basis sets.
+\newblock \emph{J. of Comp. Appl. Math.}, 136:\penalty0 17--35, 2001.
+
+\bibitem[Lynch and Rice(1964)]{lynch}
+R.~E. Lynch and J.~R. Rice.
+\newblock Direct solution of partial difference equations by tensor product
+  methods.
+\newblock \emph{Numer. Math.}, 6:\penalty0 185--199, 1964.
+
+\bibitem[Orszag(1980)]{orz}
+S.~A. Orszag.
+\newblock Spectral methods for problems in complex geometry.
+\newblock \emph{J. Comput. Phys.}, 37:\penalty0 70--92, 1980.
+
+\bibitem[Bostr\"{o}m(2015)]{erik}
+Erik Bostr\"{o}m.
+\newblock Investigation of outflow boundary conditions for convection-dominated
+  incompressible fluid flows in a spectral element framework, 2015.
+\newblock Master's Thesis, KTH, Sweden.
+
+\bibitem[Fischer et~al.(2008)Fischer, Lottes, and Kerkemeier]{nek5000}
+P.~F. Fischer, J.~W. Lottes, and S.~G. Kerkemeier.
+\newblock {Nek5000}: an open source {CFD} solver, 2008.
+\newblock http://nek5000.mcs.anl.gov.
+
+\bibitem[Orszag(1970)]{orz2}
+S.~A. Orszag.
+\newblock Transform method for calculations of vector coupled sums:
+  {Application to the spectral form of vorticity equation}.
+\newblock \emph{J. Atmos. Sci.}, 27:\penalty0 890--895, 1970.
+
+\bibitem[Canuto et~al.(1988)Canuto, Hussaini, Qaurteroni, and Zhang]{canuto}
+C.~M. Canuto, Y.~Hussaini, A.~Qaurteroni, and T.~A. Zhang.
+\newblock \emph{Spectral Methods in Fluid Dynamics}.
+\newblock Springer-Verlag, New-York, 8 rev. and enl. edition, 1988.
+
+\bibitem[Sagaut(2006)]{sag}
+Pierre Sagaut.
+\newblock \emph{{L}arge {E}ddy {S}imulations for {I}ncompressible flows}.
+\newblock Springer {V}erlag, Berlin, 2006.
+
+\bibitem[Berselli et~al.(2006)Berselli, Iliescu, and Layton]{bers}
+L.~C. Berselli, T.~Iliescu, and W.~J. Layton.
+\newblock \emph{{M}athematics of {L}arge {E}ddy {S}imulation of {T}urbulent
+  {F}lows}.
+\newblock Springer {V}erlag, Berlin, 2006.
+
+\bibitem[Smagorinsky(1963)]{smagorinsky}
+J.~Smagorinsky.
+\newblock General circulation experiments with the primitive equations.
+\newblock \emph{Journal of Monthly Weather Review}, 91\penalty0 (3):\penalty0
+  99--164, 1963.
+
+\bibitem[Deardorff(1970)]{deardoff}
+J.~W. Deardorff.
+\newblock A numerical study of three-dimensional turbulent channel flow at
+  large {R}eynolds number.
+\newblock \emph{J. Fluid. Mech.}, 41:\penalty0 453--480, 1970.
+
+\bibitem[Schumann(1975)]{schumann}
+U.~Schumann.
+\newblock Subgrid scale model for finite difference simulations of turbulent
+  flows in plane channels and annuli.
+\newblock \emph{J. Comp. Phys.}, 18:\penalty0 376--404, 1975.
+
+\bibitem[Gr\"{o}tzbach(1987)]{grot}
+G.~Gr\"{o}tzbach.
+\newblock Direct numerical and large eddy simulations of turbulent channel
+  flows.
+\newblock \emph{Encyclopedia of Fluid Mechanics,. ed NP Cheremisinoff}, pages
+  1337--1391, 1987.
+
+\bibitem[Mason and Thompson(1992)]{mason}
+P.~J. Mason and D.~J. Thompson.
+\newblock Stochastic backscatter in large-eddy simulations of boundary layers.
+\newblock \emph{J. Fluid. Mech.}, 242:\penalty0 51--78, 1992.
+
+\bibitem[Germano et~al.(1991)Germano, Piomelli, Moin, and Cabot]{germano}
+M.~Germano, U.~Piomelli, P.~Moin, and W.~L. Cabot.
+\newblock A dynamic subgrid-scale eddy viscosity model.
+\newblock \emph{Phys. Fluids A}, 3:\penalty0 1760--1765, 1991.
+
+\bibitem[Lilly(1991)]{lily}
+D.~K. Lilly.
+\newblock A proposed modification of the {G}ermano subgrid-scale closure
+  method.
+\newblock \emph{Phys. Fluids A}, 4:\penalty0 633--635, 1991.
+
+\bibitem[Meneaveau and Katz(2000)]{katz}
+C.~Meneaveau and J.~Katz.
+\newblock Scale-invariance and turbulence models for large eddy simulation of
+  boundary layers.
+\newblock \emph{Ann. Rev. Fluid. Mech.}, 32:\penalty0 1--32, 2000.
+
+\bibitem[Lady\v{z}enskaja(1970)]{lad}
+O.~A. Lady\v{z}enskaja.
+\newblock {M}odification of {N}avier-{S}tokes for large velocity gradients.
+\newblock {S}eminars in {M}athematics, {V}.{A}., Steklov Mathematical
+  Institute, 1970.
+
+\bibitem[Lady\v{z}enskaja(1967)]{lad2}
+O.~A. Lady\v{z}enskaja.
+\newblock {N}ew equations for the description of motion of viscous
+  incompressible fluids and solvability in the large of boundary value problems
+  for them.
+\newblock Proc. {S}teklov {I}nst. {M}ath, Steklov Mathematical Institute, 1967.
+
+\bibitem[Foias et~al.(2001)Foias, Holm, and Titi]{holm}
+C.~Foias, D.~Holm, and E.~Titi.
+\newblock {T}he {N}avier-{S}tokes-alpha model of fluid turbulence.
+\newblock \emph{Physica D}, 152-153:\penalty0 505--519, 2001.
+
+\bibitem[Karamanos and Karniadakis(2000)]{karmanos}
+G.~S. Karamanos and G.~E. Karniadakis.
+\newblock A spectral vanishing viscosity method for large eddy simulations.
+\newblock \emph{J. Comput. Phys.}, 163:\penalty0 22--50, 2000.
+
+\bibitem[Guermond and Prudhomme(2003)]{guermond}
+Jean-Luc Guermond and Serge Prudhomme.
+\newblock Mathematical analysis of a spectral hyperviscosity {LES} model for
+  the simulation of turbulent flows.
+\newblock \emph{Math. Model. Numer. Anal.}, 37:\penalty0 893--908, 2003.
+
+\bibitem[Guerts et~al.(2008)Guerts, Kuczaj, and Titi]{guerts}
+Bernard Guerts, A.~K. Kuczaj, and E.~S. Titi.
+\newblock Regularization modelling for large-eddy simulation of homogeneous
+  isotropic decaying turbulence.
+\newblock \emph{J. Phys. A: Math. Theor.}, 41:\penalty0 344008, 2008.
+
+\bibitem[Iliescu and Fischer(2003)]{il1}
+T.~Iliescu and P.~Fischer.
+\newblock Large eddy simulation of turbulent channel flows by rational large
+  eddy simulation model.
+\newblock \emph{Phys. Fluids}, 15:\penalty0 3036--3047, 2003.
+
+\bibitem[Iliescu and Fischer(2004)]{il2}
+T.~Iliescu and P.~Fischer.
+\newblock Backscatter in rational les model.
+\newblock \emph{Computers and Fluids}, 33:\penalty0 783--790, 2004.
+
+\bibitem[Bardina et~al.()Bardina, Ferziger, and Reynolds]{bardina2}
+J.~Bardina, J.~Ferziger, and W.~Reynolds.
+\newblock Improved subgrid scale models for large eddy simulation.
+\newblock \emph{AIAA Paper}, 80:\penalty0 1357.
+
+\bibitem[Sarghini et~al.(1998)Sarghini, Piomelli, and Balaras]{bal3}
+F.~Sarghini, U.~Piomelli, and E.~Balaras.
+\newblock Scale-similar models of large eddy simulations.
+\newblock \emph{Phys. Fluids}, 11:\penalty0 1596--1607, 1998.
+
+\bibitem[Stolz and Adams(1999)]{stolz}
+S.~Stolz and N.~A. Adams.
+\newblock An approximate deconvolution procedure for large-eddy simulations.
+\newblock \emph{Phys. Fluids}, 11:\penalty0 1699--1701, 1999.
+
+\bibitem[Layton and Lewandowski(2003)]{lay2}
+W.~J. Layton and R.~Lewandowski.
+\newblock A simple and stable scale-similarity model for large eddy simulation:
+  energy balance and existence of weak solutions.
+\newblock \emph{Appl. Math. Lett.}, 16:\penalty0 1205--1209, 2003.
+
+\bibitem[Dunca and Epshteyn(2005)]{dunca}
+A.~Dunca and E.~Epshteyn.
+\newblock On the stolz-adams deconvolution models for les.
+\newblock \emph{SIAM J. Math. Anal.}, 37:\penalty0 1890--1902, 2005.
+
+\bibitem[Bardina et~al.(1983)Bardina, Ferziger, and Reynolds]{bardina}
+J.~Bardina, J.~Ferziger, and W.~Reynolds.
+\newblock Improved turbulence models based on large-eddy simulation of
+  homogeneous incompressible turbulent flows.
+\newblock Tech. {Report TF-19, Department of Mechanical Engineering}, Stanford
+  University, Stanford, California, 1983.
+
+\bibitem[Zhang et~al.(1993)Zhang, Street, and Koseff]{zhang}
+Y.~Zhang, R.~L. Street, and J.R. Koseff.
+\newblock A dynamic mixed subgrid-scale model and its application to turbulent
+  recirulating flows.
+\newblock \emph{Phys. Fluids A}, 5:\penalty0 3186--3196, 1993.
+
+\bibitem[Lilly(1967)]{lily0}
+D.~K. Lilly.
+\newblock The representation of small-scale turbulence in numerical simulation
+  experiments.
+\newblock In proc. ibm scientific computing symposium on environmental
+  sciences, 1967.
+
+\bibitem[Horiuti(1993)]{hor}
+K.~Horiuti.
+\newblock A proper velocity scale for modelling subgrid-scale eddy viscosities
+  in large-eddy simulation.
+\newblock \emph{Phys. Fluid A}, 5:\penalty0 146--157, 1993.
+
+\bibitem[Andr\'{e}n et~al.(1994)Andr\'{e}n, Brown, Graf, Mason, Moeng,
+  Nieuwstadt, and Schumann]{andren}
+A.~Andr\'{e}n, A.~R. Brown, J.~Graf, P.~J. Mason, C.~H. Moeng, F.~T.~M.
+  Nieuwstadt, and U.~Schumann.
+\newblock Large-eddy simulation of the neutrally stratified boundary layer: A
+  comparison of four computer codes.
+\newblock \emph{Q. J. R. Metl. Soc.}, 120:\penalty0 1457--1484, 1994.
+
+\bibitem[Moin and Kim(1982)]{moin1}
+Parviz Moin and John Kim.
+\newblock {N}umerical investigation of turbulent channel flow.
+\newblock \emph{J. Fluid Mech.}, 118:\penalty0 341--377, 1982.
+
+\bibitem[{Van Driest}(1956)]{van-Driest}
+E.~R. {Van Driest}.
+\newblock On turbulent flow near wall.
+\newblock \emph{J. Aerospace Sci.}, 23:\penalty0 1007--1011, 1956.
+
+\bibitem[Meneveau et~al.(1996)Meneveau, Lund, and Cabot]{mene1}
+C.~Meneveau, T.~Lund, and W.~Cabot.
+\newblock A {L}agrangian dynamic sub-grid scale model of turbulence.
+\newblock \emph{J. Fluid. Mech.}, 319:\penalty0 353--385, 1996.
+
+\bibitem[Mason and Callen(1986)]{mason_callen}
+P.~J. Mason and N.~S. Callen.
+\newblock On the magnitude of the subgrid-scale eddy coefficient in large-eddy
+  simulations of turbulent channel flow.
+\newblock \emph{J. Fluid. Mech.}, 162:\penalty0 439--462, 1986.
+
+\bibitem[Mason(1989)]{mason0}
+P.~J. Mason.
+\newblock Large-eddy simulation of the convective atmospheric boundary layer.
+\newblock \emph{J. Atmos. Sci.}, 46:\penalty0 1492--1516, 1989.
+
+\bibitem[Stoll and Port\'{e}-Agel(2006)]{porte1a}
+Rob Stoll and F.~Port\'{e}-Agel.
+\newblock {D}ynamic subgrid-scale models for momentum and scalar fluxes in
+  large-eddy simulations of neutrally stratified atmospheric boundary layers
+  over heterogeneous terrain.
+\newblock \emph{Water Resources Research}, 42:\penalty0 W01409, 2006.
+
+\bibitem[Meyers(2006)]{meyers_err}
+J.~Meyers.
+\newblock Error-landscape assessment of large eddy simulation: A review of
+  methodology.
+\newblock \emph{J. Fluid Mech.}, 569:\penalty0 287--319, 2006.
+
+\bibitem[Businger et~al.(1971)Businger, Wyngaard, Izulmi, and Bradley]{basin}
+J.~A. Businger, J.~C. Wyngaard, Y~Izulmi, and E.F. Bradley.
+\newblock Flux profile relationships in the atmospheric surface layer.
+\newblock \emph{J Atmos Sci.}, 28:\penalty0 181--189, 1971.
+
+\bibitem[Meyers and Sagaut(2006)]{meyers}
+J.~Meyers and P.~Sagaut.
+\newblock On the model coefficient for the standard and the variational
+  multi-scale {Smagorinsky} model.
+\newblock \emph{J. Fluid Mech.}, 569:\penalty0 287--319, 2006.
+
+\bibitem[Monin and Obukhov(1954)]{obu}
+A.~S. Monin and A.~M. Obukhov.
+\newblock Basic laws of turbulent mixing in the ground layer of the atmosphere.
+\newblock \emph{Trans. Geophys. Inst. Akad. Nauk. USSR}, 151:\penalty0
+  163--187, 1954.
+
+\bibitem[Schlichting(2000)]{schlichting}
+H.~Schlichting.
+\newblock \emph{{B}oundary-layer theory}.
+\newblock Berlin; New York: Springer, 8 rev. and enl. edition, 2000.
+
+\bibitem[Moeng(1984)]{moeng1}
+C.~H. Moeng.
+\newblock A large eddy simulation model for the study of planetary
+  boundary-layer turbulence.
+\newblock \emph{J. Atmos. Sci.}, 46:\penalty0 2311--2330, 1984.
+
+\bibitem[Baggett et~al.(1997)Baggett, Jim\'{e}nez, and Kravchenko]{jimtech}
+J.~S. Baggett, J.~Jim\'{e}nez, and A.~G. Kravchenko.
+\newblock Resolution requirements in large-eddy simulations of shear flows.
+\newblock Annu. {Res. Briefs}, Centre for Turbulence Research, NASA
+  Ames/Stanford Univ, 1997.
+
+\bibitem[Larsson and Kawai(2010)]{lars}
+J.~Larsson and S.~Kawai.
+\newblock Wall-modeling in large eddy simulation: length scales, grid
+  resolution and accuracy.
+\newblock Annu. {Res. Briefs}, Centre for Turbulence Research, NASA
+  Ames/Stanford Univ, 2010.
+
+\bibitem[Maxwell(2005)]{maxwell}
+J.~C. Maxwell.
+\newblock On stresses in rarefied gases arising from inequalities in
+  temperature.
+\newblock \emph{App. Math. Lett.}, 5, 2005.
+
+\bibitem[Baggett(1998)]{bag2}
+J.~S. Baggett.
+\newblock On the feasibility of merging les with rans in the near-wall region
+  of attached turbulent flows.
+\newblock Annu. {Res. Briefs}, Centre for Turbulence Research, NASA
+  Ames/Stanford Univ, 1998.
+
+\bibitem[Piomelli et~al.(1989)Piomelli, Moin, Freziger, and Kim]{pio_wall}
+U.~Piomelli, P.~Moin, J.~H. Freziger, and J.~Kim.
+\newblock New approximate boundary conditions for large-eddy simulations of
+  wall-bounded flows.
+\newblock \emph{Phys. Fluids A}, 1:\penalty0 1061--68, 1989.
+
+\bibitem[Balaras et~al.(1996)Balaras, Benocci, and Piomelli]{bal2}
+E.~Balaras, C.~Benocci, and U.~Piomelli.
+\newblock Two layer approximate boundary conditions for large eddy simulations.
+\newblock \emph{AIAA J.}, 34:\penalty0 1111--1119, 1996.
+
+\bibitem[Chatterjee and Peet(2015)]{tan}
+Tanmoy Chatterjee and Yulia Peet.
+\newblock Actuator line wind turbine simulations in atmospheric turbulent flows
+  using spectral element method.
+\newblock AIAA paper 2015--0727, 2015.
+\newblock 05 - 9 January 2015, Kissimmmee, Florida.
+
+\bibitem[Bhaganagar et~al.(2004)Bhaganagar, Kim, and Coleman]{bhag}
+Kiran Bhaganagar, John Kim, and Gary Coleman.
+\newblock Effect of roughness on wall-bounded turbulence.
+\newblock \emph{Flow,Turbulence and Combustion}, 72:\penalty0 463--492, 2004.
+
+\bibitem[Patil and Tafti(2012)]{taft}
+Sunil Patil and Danesh Tafti.
+\newblock Two layer wall model for large-eddy simulations of flow over rough
+  surfaces.
+\newblock \emph{AIAA journal}, 50:\penalty0 454--460, 2012.
+
+\bibitem[Castro et~al.(2013)Castro, Segalini, and Alfredsson]{cast}
+Ian~P. Castro, Antonio Segalini, and P.~Henrik Alfredsson.
+\newblock Outer layer turbulence intensities in smooth and rough-wall boundary
+  layers.
+\newblock \emph{J. Fluid. Mech.}, 727:\penalty0 119--131, 2013.
+
+\bibitem[Dong. et~al.(2014)Dong., Karniadakis, and Chryssostomidis]{dong}
+S.~Dong., G.~Karniadakis, and C.~Chryssostomidis.
+\newblock A robust and accurate outflow boundary condition for incom- pressible
+  flow simulations on severely- truncated unbounded domains.
+\newblock \emph{J. Comput. Phys.}, 261:\penalty0 83--105, 2014.
+
+\bibitem[Sorensen and Shen(2002)]{sorensen:02}
+J.~N. Sorensen and W.~Z. Shen.
+\newblock Numerical modelling of wind turbine wakes.
+\newblock \emph{J. Fluids Eng.}, 124:\penalty0 393--399, 2002.
+
+\bibitem[Martinez et~al.(2012)Martinez, Leonardi, Churchfield, and
+  Moriarty]{martinez}
+L.~A. Martinez, S.~Leonardi, M.~J. Churchfield, and P.~J. Moriarty.
+\newblock A comparison of {A}ctuator {D}isk and {A}ctuator {L}ine {W}ind
+  {T}urbine {M}odels and {B}est {P}ractices for {T}heir {U}se.
+\newblock AIAA Paper 2012-0900, 2012.
+
+\bibitem[Kim et~al.(1987)Kim, Moin, and Moser]{kimmoinmoser}
+J.~Kim, P.~Moin, and R.~Moser.
+\newblock {T}urbulence statistics in fully developed channel flow at low
+  {R}eynolds number.
+\newblock \emph{J. Fluid Mech.}, 177:\penalty0 133--166, 1987.
+
+\bibitem[Hoyas and Jim\'{e}nez(2006)]{hoyas}
+S.~Hoyas and J.~Jim\'{e}nez.
+\newblock Scaling of velocity fluctuations in turbulent channels up to
+  $re_{\tau} = 2003$.
+\newblock \emph{Phys. Fluids}, 18:\penalty0 011702, 2006.
+
+\bibitem[Templeton et~al.(2005)Templeton, Medic, and Kalitzin]{temp2}
+J.~A. Templeton, G.~Medic, and G.~Kalitzin.
+\newblock An eddy-viscosity based near-wall treatment for coarse grid
+  large-eddy simulation.
+\newblock \emph{Phys. Fluids}, 17:\penalty0 105101, 2005.
+
+\bibitem[Lee and Moser(2014)]{lee2}
+M.~Lee and R.~D. Moser.
+\newblock Direct numerical simulation of turbulent channel flow up to
+  $re_{\tau} = 5200$.
+\newblock \emph{J. Fluid. Mech.}, 774:\penalty0 395--414, 2014.
+
+\bibitem[Balakumar and Adrian(2007)]{balad}
+B.~J. Balakumar and R.~J. Adrian.
+\newblock Large and very-large-scale motions in channel and boundary-layer
+  flows.
+\newblock \emph{Phil. Trans. R. Soc.}, 365:\penalty0 665--681, 2007.
+
+\bibitem[Khanna and Brasseur(1997)]{khan}
+S.~Khanna and J.~G. Brasseur.
+\newblock Analysis of monin–obukhov similarity from large-eddy simulation.
+\newblock \emph{J. Fluid Mech.}, 345:\penalty0 251--286, 1997.
+
+\bibitem[Spalart(2009)]{spal2}
+P.~R. Spalart.
+\newblock {D}etached-eddy simulation.
+\newblock \emph{Annu. Rev. Fluid. Mech.}, 41:\penalty0 181--, 2009.
+
+\bibitem[Cabot and Moin(1999)]{cabot2}
+W.~Cabot and P.~Moin.
+\newblock Approximate wall boundary conditions in the large-eddy simulation of
+  high reynolds number flow.
+\newblock \emph{Flow, Turbul. Combust.}, 63:\penalty0 263--291, 1999.
+
+\bibitem[Perry et~al.(1986)Perry, Henbest, and Chong]{perry}
+A.~E. Perry, S.~Henbest, and M.~S. Chong.
+\newblock Theoretical and experimental studies of wall turbulence.
+\newblock \emph{J. Fluid. Mech.}, 165:\penalty0 163--199, 1986.
+
+\bibitem[Townsend(1961)]{town1}
+A.~A. Townsend.
+\newblock Equilibrium layers and wall turbulence.
+\newblock \emph{J. Fluid. Mech.}, 11:\penalty0 97--120, 1961.
+
+\bibitem[Townsend(1976)]{town2}
+A.~A. Townsend.
+\newblock The structure of turbulent shear flow.
+\newblock In \emph{Cambridge, U.K.}, 2nd ed. Cambridge Univ. Press, 1976.
+
+\bibitem[Jim\'{e}nez(2012)]{jimrev}
+Javier Jim\'{e}nez.
+\newblock Cascades in wall-bounded turbulence.
+\newblock \emph{Annu. Rev. Fluid. Mech.}, 44:\penalty0 27--45, 2012.
+
+\bibitem[Kim and Bewly(2007)]{kim1}
+J.~Kim and T.~R. Bewly.
+\newblock A linear systems approach to flow control.
+\newblock \emph{Annu. Rev. Fluid. Mech.}, 39:\penalty0 383--417, 2007.
+
+\bibitem[\'{o}n et~al.(2009)\'{o}n, Cal, Kang, Castillo, and Meneaveau]{cal3}
+J.~Lebr \'{o}n, R.~B. Cal, H.~S. Kang, L.~Castillo, and C.~Meneaveau.
+\newblock Spacing dependence on wind turbine array boundary layers.
+\newblock 11th americas conference of wind engineering, 2009.
+\newblock San Juan, Puerto Rico, June 22-26, 2009.
+
+\bibitem[Fischer and Mullen(2001)]{fischer_filter}
+P.~F. Fischer and J.~S. Mullen.
+\newblock Filter-based stabilization of spectral element methods.
+\newblock \emph{Comptes rendus de l'Acad\'{e}mie des sciences, S\'{e}rie I-
+  Analyse num\'{e}rique}, 332:\penalty0 265--270, 2001.
+
+\bibitem[Karniadakis et~al.(1991)Karniadakis, Israeli, and Orszag]{kar2}
+G.~E. Karniadakis, M.~Israeli, and S.~Orszag.
+\newblock High-order splitting methods for the incompressible navier-stokes
+  equations.
+\newblock \emph{J. Comput. Phys.}, 97:\penalty0 414--443, 1991.
+
+\bibitem[Boyd(1998)]{boyd3}
+J.~P. Boyd.
+\newblock Two comments on filtering (artificial viscosity) for {C}hebyshev and
+  {L}egendre spectral and spectral element methods: {P}reserving boundary
+  conditions and interpretation of the filter as diffusion.
+\newblock \emph{J. Comput. Phys.}, 143:\penalty0 283--288, 1998.
+
+\bibitem[Blackburn and Schmidt(2003)]{black}
+H.~M. Blackburn and S.~Schmidt.
+\newblock Spectral element filtering techniques for large eddy simulation with
+  dynamic estimation.
+\newblock \emph{J. Comput. Phys.}, 186:\penalty0 610--629, 2003.
+
+\bibitem[Bouffanais et~al.(2007)Bouffanais, Deville, and Leriche]{bouf}
+R.~Bouffanais, M.~O. Deville, and E.~Leriche.
+\newblock {L}arge-eddy simulation of the flow in a lid-driven cubical cavity.
+\newblock \emph{Phys. Fluids.}, 19:\penalty0 01--20, 2007.
+
+\end{thebibliography}
